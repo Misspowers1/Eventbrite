@@ -10,7 +10,7 @@
         "date": "November 15, 2021",
         "time": "9:00 PM GM+3",
         "description": "featuring dances, party anthems and nostalgic songs from the best year of music",
-        "image": "dummy image"
+        "image": "/images/sample/event1.jpg"
     },
     {
         "id": 2,
@@ -22,7 +22,7 @@
         "date": "November 20, 2021",
         "time": "9:00 PM GM+3",
         "description": "featuring classicals, violins and party songs from the early 2000s",
-        "image": "dummy image"
+        "image": "/images/sample/event2.jpg"
     }
     
     ]

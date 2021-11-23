@@ -13,3 +13,10 @@
 .info {
   flex: 2;
 }
+.link {
+  padding: 8px;
+  background-color: orange;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

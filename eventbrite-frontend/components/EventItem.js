@@ -17,8 +17,15 @@ export default function EventItem(props) {
         />
       </div>
       <div className={styles.info}>
-        <span>{props.eventData.date}</span>
+        <span>
+          {props.eventData.date} at {props.eventData.time}
+        </span>
         <h1>{props.eventData.name}</h1>
+      </div>
+      <div className={styles.link}>
+        <Link href={`/events/${props.eventData.slug}`}>
+          <a>Details</a>
+        </Link>
       </div>
     </div>
   );
